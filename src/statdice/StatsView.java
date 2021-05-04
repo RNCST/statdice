@@ -1,4 +1,4 @@
-package com.statdice;
+package statdice;
 
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -62,9 +62,9 @@ public class StatsView implements ActionListener{
 		String command = ae.getActionCommand();
 		if ("굴리기".equals(command)) {
 			System.out.println("스탯 굴리기 실행");
-			Vector oneRow = new Vector();
-			oneRow.addElement(SR.runs());
-			dtm_statRoll.addRow(oneRow);
+			Vector row = new Vector();
+			row.addElement(SR.runs());
+			dtm_statRoll.addRow(row);
 		}
 		else if ("종료".equals(command)) {
 			System.exit(0);

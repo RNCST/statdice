@@ -1,4 +1,4 @@
-package com.statdice;
+package statdice;
 
 public class StatsVO {
 

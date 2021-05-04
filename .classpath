@@ -6,5 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/ojdbc6.jar" sourcepath="C:/ojdbc6-11.2.0.2.0/oracle/jdbc/driver/OracleClosedStatement.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
